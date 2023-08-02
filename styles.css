@@ -11,14 +11,19 @@ body {
     align-items: center;
     width: 500px;
     justify-content: space-around;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
+.message {
+    color: red;   
+}
 .board {
     width: 400px;
     height: 400px;
     display: grid;
-    border: 1px solid black;
+    border: 4px solid black;
+    border-radius: 8px;
+    margin-top: 10px;
 }
 
 .footer {
@@ -27,6 +32,52 @@ body {
     justify-content: space-between;
     width: 400px;
     align-items: center;
-    margin-top: 20px;    
+    margin-top: 10px;    
 }
 
+.btn-black, .btn-random, .btn-reset{
+    width: 100px;
+    height: 50px;   
+    font-size: 18px;
+    border: none;
+    border-radius: 5px; 
+}
+
+.btn-black {
+    background-color: black;
+    color: white;    
+}
+
+.btn-black:hover {
+    cursor: pointer;
+}
+
+.btn-random {
+    background-color: darkgoldenrod;
+    color: black;
+}
+
+.btn-random:hover {
+    cursor: pointer;
+}
+
+.btn-reset {
+    background-color: gray;
+    color: white;
+}
+.btn-reset:hover {
+    cursor: pointer;
+}
+
+#popup {
+    height: 30px;
+    background-color: blue;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;    
+}
+
+#popup:hover {
+    cursor: pointer;
+    background-color: green;
+}
